@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro");
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
-
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +9,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "Be Vietnam Pro", sans-serif;
+  font-synthesis: swap;
 }
 
 :root {
@@ -285,6 +284,7 @@ header section .menu_bar {
 .community .community-container section img {
   object-fit: cover;
   height: 100px;
+  width: 100px;
   margin-top: -80px;
 }
 
@@ -382,6 +382,7 @@ footer .footer_first .socials {
 
 footer .footer_first .socials img {
   width: 40px;
+  height: 40px;
 }
 
 footer .footer_second {
